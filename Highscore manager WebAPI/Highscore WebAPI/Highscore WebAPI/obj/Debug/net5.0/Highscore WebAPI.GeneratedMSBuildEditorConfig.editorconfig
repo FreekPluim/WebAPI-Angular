@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = Highscore_WebAPI
+build_property.ProjectDir = C:\Users\freek\OneDrive\school\Personal Portfolio\WebAPI - Angular\WebAPI-Angular\Highscore manager WebAPI\Highscore WebAPI\Highscore WebAPI\

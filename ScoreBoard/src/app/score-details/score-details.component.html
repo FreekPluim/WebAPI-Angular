@@ -1,0 +1,32 @@
+<div class="jumbotron py-3">
+    <h1 class="display-4 text-center">Scoreboard</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <app-score-details-form></app-score-details-form>
+    </div>
+    <div class="col-md-6">
+        <table class="table">
+            <thead class="thead-light">
+                <tr>
+                    <th>Name</th>
+                    <th>Time in Sec</th>
+                    <th>Score</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tBody>
+                <tr *ngFor="let pd of service.list">
+                    <td>{{pd.scoreName}}</td>
+                    <td>{{pd.scoreTimeinSec}}</td>
+                    <td>{{pd.highScore}}</td>
+                    <td>
+                        <i class="far fa-trash-alt fa-lg text-danger"></i>
+                    </td>
+                </tr>
+            </tBody>
+        </table>
+    </div>
+</div>
+

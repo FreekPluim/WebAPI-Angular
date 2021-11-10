@@ -1,0 +1,28 @@
+<form novalidate #form="ngForm" (submit)="onSubmit(form)">
+    <input type="hidden" name="scoreDetailId"
+    [value]="service.formData.scoreDetailId"/>
+
+    <div class="form-group">
+        <label>NAME:</label>
+        <input class="form-control form-control-lg" placeholder="username"
+        name="scoreName" #scoreName="ngModel" [(ngModel)]="service.formData.scoreName" required>
+    </div>
+
+    <div class="form-group">
+        <label>TIME IN SECONDS:</label>
+        <input class="form-control form-control-lg" placeholder="time in seconds"
+        name="scoreTimeinSec" #scoreName="ngModel" [(ngModel)]="service.formData.scoreTimeinSec" required>
+    </div>
+
+    <div class="form-group">
+        <label>SCORE:</label>
+        <input class="form-control form-control-lg" placeholder="Your score"
+        name="highScore" #scoreName="ngModel" [(ngModel)]="service.formData.highScore" required>   
+    </div>
+
+    <div class="form-group">
+        <button class="btn btn-info btn-lg btn-block" type="submit" [disabled]="form.invalid">
+            SUBMIT
+        </button>
+    </div>
+</form>
