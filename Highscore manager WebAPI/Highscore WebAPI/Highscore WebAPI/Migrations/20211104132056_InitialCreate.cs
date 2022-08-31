@@ -14,6 +14,7 @@ namespace Highscore_WebAPI.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ScoreName = table.Column<string>(type: "nvarchar(100)", nullable: true),
                     ScoreTimeinSec = table.Column<int>(type: "int", nullable: true),
+                    DistanceInMeters = table.Column<int>(type: "int", nullable: true),
                     HighScore = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kCaOs52fpIe7vrIuiwZnqZwGu9TtogXtuCUmZr2Vk8h+uPZEKlgT4I+2soZOEDGrvMQPYKfz/twOIC0gLmAT6A==",
+  "dgSpecHash": "uRDLgUFoCXXzs7UQ08dPduFJJoEWOvTd6uo+52FiykrBXXdM+CbuIZ4OJAHHpD0xopEWtQ1OGX7L63XLOcRbbw==",
   "success": true,
   "projectFilePath": "C:\\Users\\freek\\OneDrive\\school\\Personal Portfolio\\WebAPI - Angular\\WebAPI-Angular\\Highscore manager WebAPI\\Highscore WebAPI\\Highscore WebAPI\\Highscore WebAPI.csproj",
   "expectedPackageFiles": [
@@ -58,7 +58,7 @@
     "C:\\Users\\freek\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\5.0.2\\microsoft.visualstudio.web.codegenerators.mvc.5.0.2.nupkg.sha512",
     "C:\\Users\\freek\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\freek\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\freek\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\freek\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\freek\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\freek\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",

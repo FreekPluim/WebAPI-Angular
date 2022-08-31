@@ -3,14 +3,16 @@ using Highscore_WebAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Highscore_WebAPI.Migrations
 {
     [DbContext(typeof(ScoreDetailContext))]
-    partial class ScoreDetailContextModelSnapshot : ModelSnapshot
+    [Migration("20220831141610_AddedDistance")]
+    partial class AddedDistance
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

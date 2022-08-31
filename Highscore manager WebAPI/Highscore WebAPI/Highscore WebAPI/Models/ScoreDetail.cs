@@ -19,6 +19,9 @@ namespace Highscore_WebAPI.Models
         public int ScoreTimeinSec { get; set; }
 
         [Column(TypeName = "int")]
+        public int DistanceInMeters { get; set; }
+
+        [Column(TypeName = "int")]
         public int HighScore { get; set; }
     }
 }

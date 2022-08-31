@@ -21,16 +21,23 @@ export class ScoreDetailsFormComponent implements OnInit {
   onSubmit(form:NgForm){
     this.service.postScoreDetail().subscribe(
       res => {
+  
+
         this.resetForm(form);
         this.toastr.success('Score submitted successfully', 'Score Detail Register');
+        this.service.refreshList();
       },
       err => {
         console.log(err);
       }
     );
   }
+
   resetForm(form:NgForm){
     form.form.reset();
     this.service.formData = new ScoreDetail();
-  }
+  } 
+
+  
+
 }
